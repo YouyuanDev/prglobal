@@ -34,75 +34,11 @@
 
 <body id="home">
 
-<%--<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">--%>
-<%--<div class="container">--%>
-<%--<div class="navbar-header pull-left">--%>
-<%--<a class="navbar-brand page-scroll" href="#">--%>
-<%--<span class="brand-logo">--%>
-<%--<img src="images/logo.png" alt="熊猫救援" title="熊猫救援" class="img-responsive">--%>
-<%--<span class="brand-desc">熊猫救援</span>--%>
-<%--</span>--%>
-
-<%--</a>--%>
-<%--</div>--%>
-<%--<ul class="nav navbar-nav visible-lg">--%>
-<%--<li>--%>
-<%--<a href="#about" class="button">关于熊猫救援</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#news" class="button">新闻动态</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#services" class="button">业务内容</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#team" class="button">熊猫救援团队</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#portfolio" class="button">公司招聘</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#clients" class="button">联系我们</a>--%>
-<%--</li>--%>
-<%--</ul>--%>
-<%--<div class="main-nav pull-right">--%>
-<%--<div class="button_container toggle">--%>
-<%--<span class="fa fa-navicon fa-2x"></span>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="overlay" id="overlay">--%>
-<%--<nav class="overlay-menu">--%>
-<%--<ul>--%>
-<%--<li>--%>
-<%--<a href="#about" class="button">关于熊猫救援</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#news" class="button">新闻动态</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#services" class="button">业务内容</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#team" class="button">熊猫救援团队</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#portfolio" class="button">公司招聘</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#clients" class="button">联系我们</a>--%>
-<%--</li>--%>
-<%--</ul>--%>
-<%--</nav>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</nav>--%>
-
 <jsp:include page="common/header.jsp"></jsp:include>
 
 <div style="display: none;" id="allmap"></div>
 
 <header id="intro-carousel" class="carousel slide">
-    <!--<div class="carousel-inner">-->
     <div class="owl-carousel" id="intro-pr" style="height:100%;">
         <!--1-->
         <div class="item" style="height:100%;" id="item1">
@@ -119,7 +55,7 @@
 							</span>
                     <span>
 								<span>当前所在城市</span>
-							    <span class="city">上海</span>
+							    <span class="city"></span>
 							</span>
                 </h3>
             </div>
@@ -276,34 +212,10 @@
             </div>
             <div class="col-md-5 text-left">
                 <h1><a href="news/news_list.jsp">新闻动态</a></h1>
-                <h4 class="white"><a href="news/news_list.jsp">聚焦熊猫，随时随地了解更多最新公司资讯</a></h4>
+                <h4 class="white"><a href="news/news_list.jsp">了解更多最新公司资讯</a></h4>
                 <div class="news-content scroll-style">
                     <ul id="pr-news">
-                        <li data-content="article" data-href="data/Articles/2015-12-25.html">
-                            <div class="news-title">
-                                熊猫今天起正式上架
-                            </div>
-                            <span class="pull-right">2015-12-24</span></li>
-                        <li data-content="article" data-href="data/Articles/2015-04-20.html">
-                            <div class="news-title">
-                                熊猫使用手册
-                            </div>
-                            <span class="pull-right">2015-04-20</span></li>
-                        <li data-content="article" data-href="data/Articles/2013-12-18.html">
-                            <div class="news-title">
-                                熊猫融资三轮融资超1亿
-                            </div>
-                            <span class="pull-right">2013-12-18</span></li>
-                        <li data-content="article" data-href="data/Articles/2013-08-23.html">
-                            <div class="news-title">
-                                熊猫使用在线人数首次超过2亿
-                            </div>
-                            <span class="pull-right">2013-08-23</span></li>
-                        <li data-content="article" data-href="data/Articles/2013-06-12.html">
-                            <div class="news-title">
-                                熊猫改革方案具体措施
-                            </div>
-                            <span class="pull-right">2013-06-12</span></li>
+
                     </ul>
                 </div>
             </div>
@@ -678,116 +590,12 @@
             </div>
         </div>
         <div class="customNavigation project-navigation text-center">
-            <a class="btn-prev"><i class="fa fa-chevron-left fa-2x"></i></a>
-            <a class="btn-next"><i class="fa fa-chevron-right fa-2x"></i></a>
+            <a class="btn-prev"><i class="fa fa-chevron-left fa-2x" style="margin-top:15px;"></i></a>
+            <a class="btn-next"><i class="fa fa-chevron-right fa-2x" style="margin-top:15px;"></i></a>
         </div>
     </div>
 </section>
 
-<jsp:include page="common/footer.jsp"></jsp:include>
-<%--<footer id="clients">--%>
-<%--<div class="container contact" style="padding-left:0px;width:80%;">--%>
-<%--<div class="row">--%>
-<%--<div class="col-md-7">--%>
-<%--<p class="highlight" style="padding-left:15px;">联系方式</p>--%>
-<%--<ul>--%>
-<%--<li>地址：上海市宝山区同济支路199号6211室</li>--%>
-<%--<li>电话：021-66650051</li>--%>
-<%--<li>邮箱：topinspector@youyuantech.com</li>--%>
-<%--</ul>--%>
-<%--<ul>--%>
-<%--<li>商务QQ：94563674（王先生）</li>--%>
-<%--<li>人事QQ：94563674（王先生）</li>--%>
-<%--</ul>--%>
-<%--</div>--%>
-<%--<div class="col-md-5">--%>
-<%--<p class="highlight">关注我们</p>--%>
-<%--<ul class="contact-ul">--%>
-<%--<li><span class="fa fa-weibo"></span></li>--%>
-<%--<li><span class="fa fa-weixin"></span></li>--%>
-<%--<li><span class="fa fa-qq"></span></li>--%>
-<%--<li><span class="fa fa-facebook-f"></span></li>--%>
-<%--</ul>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="container about" style="padding-left:0px;width:80%;">--%>
-<%--<div class="row ">--%>
-<%--<div class="col-md-7">--%>
-<%--<div class="row">--%>
-<%--<div class="col-md-9 link">--%>
-<%--<ul>--%>
-<%--<li>--%>
-<%--<p class="highlight">关于我们</p>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#">公司概况</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#">公司文化</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#">发展历程</a>--%>
-<%--</li>--%>
-<%--</ul>--%>
-<%--<ul>--%>
-<%--<li>--%>
-<%--<p class="highlight">公司业务</p>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a data-toggle="modal" data-target="#c1">汽车救援</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a data-toggle="modal" data-target="#c1">智能推荐</a>--%>
-<%--</li>--%>
-<%--</ul>--%>
-<%--<ul>--%>
-<%--<li>--%>
-<%--<p class="highlight">新闻动态</p>--%>
-<%--</li>--%>
-<%--<li>新闻</li>--%>
-<%--</ul>--%>
-<%--<ul>--%>
-<%--<li>--%>
-<%--<p class="highlight">联系我们</p>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#">福利待遇</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#">招聘岗位</a>--%>
-<%--</li>--%>
-<%--<li>--%>
-<%--<a href="#">公司招聘</a>--%>
-<%--</li>--%>
-<%--</ul>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="col-md-5 company-ico">--%>
-<%--<p class="highlight">客户端下载</p>--%>
-<%--<div class="company-code">--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="copynote">--%>
-<%--<div class="container">--%>
-<%--<div class="row">--%>
-<%--<div class="col-md-2 text-left" style="padding-left:4px">--%>
-<%--<a class="btn-lang active line">简体中文</a>--%>
-<%--<a class="btn-lang">English</a>--%>
-<%--</div>--%>
-<%--<div class="col-md-10 text-right">--%>
-<%--Copyright &copy; 2018. All Rights Reserved. 沪ICP备18028516号--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--</div>--%>
-<%--<div class="nav pull-right scroll-top">--%>
-<%--<a href="#" title="滚动到最顶端"><i class="fa fa-chevron-up"></i></a>--%>
-<%--</div>--%>
-<%--</footer>--%>
 
 <script src="js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -795,7 +603,6 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.parallax-1.1.3.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.countto.js"></script>
 <script src="js/jquery.inview.min.js"></script>
 <script src="js/pace.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
@@ -805,9 +612,12 @@
 <script src="js/jquery.animations.min.js"></script>
 <script src="js/jquery.animations-tile.min.js"></script>
 <script src="js/hallooou.js"></script>
+<script src="js/jquery.i18n.properties-1.0.9.js"></script>
+<script src="js/language.js"></script>
 <script type="text/javascript">
     $(function () {
         loadRecentNews();
+        hlLanguage("../i18n/");
     });
 
     function loadRecentNews() {

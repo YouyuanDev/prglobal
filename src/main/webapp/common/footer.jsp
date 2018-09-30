@@ -96,8 +96,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2 text-left" style="padding-left:4px">
-                    <a class="btn-lang active line">简体中文</a>
-                    <a class="btn-lang">English</a>
+                    <a class="btn-lang active line" onclick="changeLanguage(0);">简体中文</a>
+                    <a class="btn-lang" onclick="changeLanguage(1);">English</a>
                 </div>
                 <div class="col-md-10 text-right">
                     Copyright &copy; 2018. All Rights Reserved. 沪ICP备18028516号
@@ -109,4 +109,16 @@
         <a href="#" title="滚动到最顶端"><i class="fa fa-chevron-up"></i></a>
     </div>
 </footer>
+<script src="../js/jquery.i18n.properties-1.0.9.js"></script>
+<script src="../js/language.js"></script>
+<script type="text/javascript">
+    function changeLanguage(type) {
+        if(type==0){
+            $.cookie('userLanguage', 'zh-CN');
+        }else{
+            $.cookie('userLanguage', 'en');
+        }
+        hlLanguage("../i18n/");
+    }
+</script>
 

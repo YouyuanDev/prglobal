@@ -122,7 +122,7 @@ blockquote {
   background: #7AC5CD;
 }
 .full-project:hover {
-  background: #ff7805;
+  background: #7AC5CD;
   /* Hover color */
 }
 .btn-overcolor:hover {
@@ -140,12 +140,12 @@ blockquote {
 .table.table-bordered td.p10:active,
 .table.table-bordered td.p05:hover,
 .table.table-bordered td.p05:active {
-  background: #ff7805;
+  background: #7AC5CD;
   color: #fff;
 }
 /*news*/
 .news-content li[data-content]:hover {
-  color: #ff7805;
+  color: #7AC5CD;
 }
 /* 4:   Secondary color */
 /* ---------------------------------------------- */
@@ -198,7 +198,7 @@ blockquote {
   color: #ff5a00;
 }
 .modal-services-content a:hover {
-  color: #ff7805;
+  color: #7AC5CD;
 }
 /* 7:   Dark color/Footer color */
 /* ---------------------------------------------- */
@@ -211,10 +211,10 @@ footer .copynote {
   /*rgba(45,45,55, .97); Dark color/Footer color */
 }
 footer .row ul li a:hover {
-  color: #ff7805;
+  color: #7AC5CD;
 }
 footer .btn-lang.active {
-  color: #ff7805;
+  color: #7AC5CD;
 }
 /* 8:   Text selection color */
 /* ---------------------------------------------- */
